@@ -1,2 +1,8 @@
 __pycache__
 **/migrations/0*.py
+
+
+# Packages
+*.egg
+*.egg-info
+dist
