@@ -20,7 +20,7 @@ setup(
     include_package_data=True,
     packages=['singleton_model'],
     install_requires=install_requires,
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
