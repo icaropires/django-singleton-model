@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name='django_singleton_model',
-    version='0.1',
+    version='0.2.2',
     description='Simple package for impleting models using singleton design pattern',
     url='https://github.com/icaropires/django-singleton-model',
     author='Ícaro Pires',

@@ -3,7 +3,7 @@ from django.db import models
 
 class SingletonModel(models.Model):
 
-    def delete(self, *args, **kwargs):
+    def delete(self, *args, **kwargs):  # pylint: disable=arguments-differ
         pass
 
     def save(self, *args, **kwargs):  # pylint: disable=arguments-differ
