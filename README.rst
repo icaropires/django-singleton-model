@@ -7,8 +7,8 @@ Django Singleton Model
 Singleton design-pattern implementation for using with django models and
 works with more recent versions of django
 
-Using
------
+Installing
+----------
 
 Install the package
 
@@ -16,7 +16,12 @@ Install the package
 
     $ pip3 install django-singleton-model
 
-now you can import the SingletonModel class and inherit from it
+and that's it. Don't add it to INSTALLED\_APPS.
+
+Using
+-----
+
+Import the SingletonModel class and inherit from it
 
 .. code:: python
 
@@ -25,7 +30,6 @@ now you can import the SingletonModel class and inherit from it
     class MySingleModel(SingletonModel):
         pass
 
-and that's it. Don't add it to INSTALLED\_APPS.
 
 Running tests
 -------------
@@ -45,7 +49,7 @@ and run them
 Troubleshooting
 ---------------
 
-Check the example folder if you have any doubts. Or you can created an
-issue it doesn't work anyway.
+Check the example folder if you have any doubts. Or you can create an
+issue.
 
 .. |Build Status| image:: https://travis-ci.org/icaropires/django-singleton-model.svg?branch=master

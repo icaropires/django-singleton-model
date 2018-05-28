@@ -8,9 +8,10 @@ install_requires = [
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+
 setup(
     name='django_singleton_model',
-    version='0.2.2',
+    version='0.2.3',
     description='Simple package for impleting models using singleton design pattern',
     url='https://github.com/icaropires/django-singleton-model',
     author='Ícaro Pires',
